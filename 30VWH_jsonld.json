@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "geosparql": "https://www.opengis.net/ont/geosparql#"
+    },
+    "@id": "https://plastic-i.com",
+    "@type": "Dataset",
+    "name": "Sentinel-2 tile 30VWH (covering south east Scotland)",
+    "description": "Sentinel-2 tile 30VWH (covering south east Scotland)",
+    "keywords": ["ocean plastic", "marine plastic", "plastic"],
+    "url": "https://github.com/plastic-i/odis_test",
+    "geosparql:hasGeometry": {
+        "@type": "http://www.opengis.net/ont/sf#Polygon",
+        "geosparql:asWKT": {
+            "@type": "https://www.opengis.net/ont/geosparql#wktLiteral",
+            "@value": "POLYGON(-3.000 55.845, -3.000 56.844, -1.201 56.844, -1.201 55.845, -3.000 55.845)"
+        },
+        "geosparql:crs": {
+            "@id": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+        }
+    }
+}
